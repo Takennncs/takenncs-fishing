@@ -1,74 +1,79 @@
 ## items
+```lua
 ['fishingrod'] = {
-    label = 'Õng',
+    label = 'Fishing Rod',
     weight = 1850,
-	prop = `prop_fishing_rod_02`,
     stack = true,
     close = true,
-    description = "Sellega peaks saama kalu püüda..",
+    description = "Used to catch fish..",
     client = {
         export = 'takenncs-fishing.UseFishingRod'
     }
 },
-	["fishingbass"] = {
-		label = "Ahven",
-		weight = 700,
-		stack = true,
-		close = true,
-		description = "Levinud mageveekala.",
-	},
-	
-	["fishingcod"] = {
-		label = "Tursk",
-		weight = 1500,
-		stack = true,
-		close = true,
-		description = "Tursk on üks levinumaid kalu maailmas.",
-	},
-		
-	["fishingmackerel"] = {
-		label = "Makrell",
-		weight = 1250,
-		stack = true,
-		close = true,
-		description = "Harilik makrell, röövkala.",
-	},
-
-	["fishingbluefish"] = {
-		label = "Sinikala",
-		weight = 1300,
-		stack = true,
-		close = true,
-		description = "Ei ole küll sinine, aga kala on ikka.",
-	},
-	
-	["fishingflounder"] = {
-		label = "Harilik polaarlest",
-		weight = 970,
-		stack = true,
-		close = true,
-		description = "Otse põhjapooluselt.",
-	},	
-	["fishingshark"] = {
-		label = "Väikene haikala",
-		weight = 2500,
-		stack = true,
-		close = true,
-		description = "Pärast seda, kui ta sind hammustab, ei ole ta enam nii väike.",
-	},
-	["fishingdolphin"] = {
-		label = "Väikene delfiin",
-		weight = 2750,
-		stack = true,
-		close = true,
-		description = "Nii armas, et tahaks ta tagasi vette visata.",
-	},
-	["fishingwhale"] = {
-		label = "Väikene vaal",
-		weight = 3500,
-		stack = true,
-		close = true,
-		description = "Väike vaal, kahjuks ei mahu kotti.",
-	},
-	
---
+['fishinglicense'] = {
+    label = 'Fishing License',
+    weight = 50,
+    stack = false,
+    close = true,
+    description = 'Fishing license to show to police',
+    client = {
+        image = 'fishinglicense.png'
+    }
+},
+['fishingbass'] = {
+    label = 'Bass',
+    weight = 700,
+    stack = true,
+    close = true,
+    description = 'Common freshwater fish.'
+},
+['fishingcod'] = {
+    label = 'Cod',
+    weight = 1500,
+    stack = true,
+    close = true,
+    description = 'One of the most common fish.'
+},
+['fishingmackerel'] = {
+    label = 'Mackerel',
+    weight = 1250,
+    stack = true,
+    close = true,
+    description = 'Common mackerel, predatory fish.'
+},
+['fishingbluefish'] = {
+    label = 'Bluefish',
+    weight = 1300,
+    stack = true,
+    close = true,
+    description = 'Not actually blue, but still a fish.'
+},
+['fishingflounder'] = {
+    label = 'Flounder',
+    weight = 970,
+    stack = true,
+    close = true,
+    description = 'Straight from the North Pole.'
+},
+['fishingshark'] = {
+    label = 'Small Shark',
+    weight = 2500,
+    stack = true,
+    close = true,
+    description = 'After it bites you, it won\'t be so small.'
+},
+['fishingdolphin'] = {
+    label = 'Small Dolphin',
+    weight = 2750,
+    stack = true,
+    close = true,
+    description = 'So cute you want to throw it back.'
+},
+['fishingwhale'] = {
+    label = 'Small Whale',
+    weight = 3500,
+    stack = true,
+    close = true,
+    description = 'Small whale, sadly doesn\'t fit in bag.'
+}
+```
